@@ -12,13 +12,19 @@ const Banner = () => {
         <div className="links">
           <ul>
             <li>
-              <a href="#">Adventures</a>
+              <a href="#" className="text-decoration-none">
+                Adventures
+              </a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" className="text-decoration-none">
+                About
+              </a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" className="text-decoration-none">
+                Contact
+              </a>
             </li>
             <li>
               <button className="navbtn">Explore</button>
