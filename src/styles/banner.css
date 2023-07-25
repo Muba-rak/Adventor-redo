@@ -61,6 +61,7 @@ nav{
 .inner p{
     color: var(--secondary);
     font-size: 18px;
+    line-height: 27px;
 
 }
 .inner button{

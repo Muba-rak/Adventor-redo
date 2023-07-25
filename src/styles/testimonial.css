@@ -26,6 +26,7 @@
 }
 .testimonial-main{
     padding: 5px;
+    transition: all ease-in 0.5;
 }
 .testimonial-main p{
     color: var(--grey);
