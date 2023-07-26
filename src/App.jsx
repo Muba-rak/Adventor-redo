@@ -1,19 +1,14 @@
 import "./App.css";
-import Banner from "./components/Banner";
-import Footer from "./components/Footer";
-import Section1 from "./components/Section1";
-import Testimonial from "./components/Testimonial";
+import { lazy } from "react";
+const Homepage = lazy(() => import("./pages/Homepage"));
+import { Suspense } from "react";
+import Loader from "./components/Loader";
 
 function App() {
   return (
-    <>
-      <Banner />
-      <div className="submain">
-        <Section1 />
-      </div>
-      <Testimonial />
-      <Footer />
-    </>
+    <Suspense fallback={<Loader />}>
+      <Homepage />
+    </Suspense>
   );
 }
 
