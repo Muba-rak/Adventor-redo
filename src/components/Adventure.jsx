@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const Adventure = ({ id, image, info, title, removeAdventure }) => {
   const [readMore, setReadMore] = useState(true);
@@ -11,7 +12,13 @@ const Adventure = ({ id, image, info, title, removeAdventure }) => {
       <article>
         <div className="title-icons">
           <h5>{title} </h5>
-          <p>icons</p>
+          <p>
+            <AiFillStar className="text-warning" />
+            <AiFillStar className="text-warning" />
+            <AiFillStar className="text-warning" />
+            <AiOutlineStar className="text-warning" />
+            <AiOutlineStar className="text-warning" />
+          </p>
         </div>
         <p className="adventure-text">
           {readMore ? `${info.substring(0, 50)}...` : info}
