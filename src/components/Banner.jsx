@@ -12,22 +12,24 @@ const Banner = () => {
         <div className="links">
           <ul>
             <li>
-              <a href="#" className="text-decoration-none">
+              <a href="#adventures" className="text-decoration-none">
                 Adventures
               </a>
             </li>
             <li>
-              <a href="#" className="text-decoration-none">
+              <a href="#footer" className="text-decoration-none">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="text-decoration-none">
+              <a href="#footer" className="text-decoration-none">
                 Contact
               </a>
             </li>
             <li>
-              <button className="navbtn">Explore</button>
+              <a href="#adventures" className="text-decoration-none">
+                <button className="navbtn">Explore</button>
+              </a>
             </li>
           </ul>
         </div>
@@ -43,7 +45,9 @@ const Banner = () => {
             luctus id arcu. Turpis non felis, vitae egestas at condimentum.
             Nulla iaculis amet, vehicula viverra ac vulputate nec rhoncus.
           </p>
-          <button>View Adventures</button>
+          <a href="#adventures" className="text-decoration-none">
+            <button>View Adventures</button>
+          </a>
         </div>
       </section>
     </div>

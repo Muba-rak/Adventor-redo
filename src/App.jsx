@@ -1,4 +1,3 @@
-import "./App.css";
 import { lazy } from "react";
 const Homepage = lazy(() => import("./pages/Homepage"));
 import { Suspense } from "react";

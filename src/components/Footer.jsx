@@ -8,7 +8,7 @@ import "../styles/footer.css";
 import Logo from "../assets/logo.png";
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       <div className="footer-container">
         <div className="main-footer">
           <div>

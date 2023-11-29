@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/adventures.css";
 import Adventure from "./Adventure";
 import Refresh from "./Refresh";
+import data from "../data";
 
-const Adventures = ({ adventures, removeAdventure, refresh }) => {
+const Adventures = () => {
+  const [adventures, setAdventures] = useState(data);
+
+  //remove adv function
+
+  const removeAdventure = (id) => {
+    const remainingAdventures = adventures.filter((a) => a.id !== id);
+    setAdventures(remainingAdventures);
+  };
+  //refresh function
+
+  const refresh = () => {
+    setAdventures(data);
+  };
   if (adventures.length === 0) {
     return <Refresh refresh={refresh} />;
   }
