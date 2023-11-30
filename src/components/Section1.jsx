@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/section1.css";
-import data from "../data";
 import Adventures from "./Adventures";
 
 const Section1 = () => {

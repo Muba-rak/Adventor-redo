@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/adventures.css";
 import Adventure from "./Adventure";
 import Refresh from "./Refresh";
-import data from "../data";
+import data from "../mockData/data";
 
 const Adventures = () => {
   const [adventures, setAdventures] = useState(data);

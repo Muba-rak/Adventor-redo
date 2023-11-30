@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/testimonial.css";
-import clients from "../user";
+import clients from "../mockData/user";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 // [0, 1, 2, 3, 4] =  5

@@ -5,14 +5,14 @@ import {
   TiSocialTwitter,
 } from "react-icons/ti";
 import "../styles/footer.css";
-import Logo from "../assets/logo.png";
+import logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <div id="footer">
       <div className="footer-container">
         <div className="main-footer">
           <div>
-            <img src={Logo} alt="Logo" />
+            <img src={logo} alt="Logo" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
               Tincidunt id sem vel quis in turpis sit eget pellentesque.
