@@ -22,7 +22,10 @@ const Adventure = ({ id, image, info, title, removeAdventure }) => {
         </div>
         <p className="adventure-text">
           {readMore ? `${info.substring(0, 50)}...` : info}
-          <button onClick={toggleRead}>
+          <button
+            onClick={toggleRead}
+            className={readMore ? "text-success" : null}
+          >
             {readMore ? "Read More" : "Show Less"}
           </button>
         </p>
