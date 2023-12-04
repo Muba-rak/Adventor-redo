@@ -10,7 +10,9 @@ const Adventures = () => {
   //remove adv function
 
   const removeAdventure = (id) => {
-    const remainingAdventures = adventures.filter((a) => a.id !== id);
+    const remainingAdventures = adventures.filter(
+      (adventure) => adventure.id !== id
+    );
     setAdventures(remainingAdventures);
   };
   //refresh function

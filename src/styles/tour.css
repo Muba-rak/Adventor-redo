@@ -9,7 +9,7 @@
 .tour-text .empty {
   width: 100px;
   height: 3px;
-  background-color: #22cdff;
+  background-color: var(--blue);
   margin: 3px 0;
 }
 .tour-text p {
