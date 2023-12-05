@@ -15,7 +15,7 @@ const Adventure = ({ id, image, info, title, removeAdventure }) => {
           <p>
             <AiFillStar className="text-warning" />
             <AiFillStar className="text-warning" />
-            <AiFillStar className="text-warning" />
+            <AiOutlineStar className="text-warning" />
             <AiOutlineStar className="text-warning" />
             <AiOutlineStar className="text-warning" />
           </p>
