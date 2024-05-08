@@ -3,8 +3,7 @@ import "../styles/testimonial.css";
 import clients from "../mockData/user";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
-// [0, 1, 2, 3, 4] =  5
-// name.length - 1
+
 const Testimonial = () => {
   const [index, setIndex] = useState(4);
   const { id, comment, image, name, job } = clients[index];

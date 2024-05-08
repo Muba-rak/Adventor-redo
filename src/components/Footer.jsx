@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="main-footer">
           <div>
             <img src={logo} alt="Logo" />
-            <p>
+            <p style={{ marginTop: "10px" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
               Tincidunt id sem vel quis in turpis sit eget pellentesque.
               <br /> Nunc etiicies in rhoncus, rhoncus in arcu.
